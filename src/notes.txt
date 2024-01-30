@@ -40,3 +40,35 @@ Stage3: Candidate (se elige el candidato, vamos a tener una propuesta que va ayu
 
 Stage4: Finished (va a ser desplegada en la version normalmente en JUNIO)
 
+=> Let, const var:
+    * Let y var se pueden declarar, asignar y reasignar
+    * const no se puede reasignar pero si se puede declarar y asignar
+    * let y const son de alcance de bloque ({})
+    * Var es de alcance de funcion (function)
+
+=> Arrow Functions:
+    * Las arrow functions se crean con una variable que almacena una funcion () (const a = ()=>{}).
+    * Cuando solo se quiere devolver un resultado las arrow functions ya tienen el return implicito.
+
+=> Promesas:
+    * Es una forma de trabajar el asincronismo, desde los callbacks, las promesas y async-await.
+    * Es algo que va a pasar; puede ser hoy, mañana o nunca.
+    * Curso de asincronismo en JS.
+    * La promesa retorna dos valores, Result o Reject.
+
+=> Clases:
+    * Las clases en JS, introducidas en ECMAScript-6, Es una mejora sintactica sobre la herencia (POO).
+    * Esta basada en prototipos
+    * No introduce nada nuevo al modelo de la herencia.
+    * Cuando se crea la instancia de una clase lo primero que se llama es al metodo constructor.
+    * 'This', Hace referencia al elemento padre que lo contiene.
+    * Son una forma en la que podemos trabajar.
+    * Getters, Setters.
+
+=> Modulos:
+    * Nueva caracteristicas que permiten ser representados como Modulos
+    * Palabras reservadas 'Import' , 'Export'
+
+=> Generator:    
+
+
