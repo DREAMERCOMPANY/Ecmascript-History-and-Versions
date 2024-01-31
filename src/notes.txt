@@ -69,6 +69,12 @@ Stage4: Finished (va a ser desplegada en la version normalmente en JUNIO)
     * Nueva caracteristicas que permiten ser representados como Modulos
     * Palabras reservadas 'Import' , 'Export'
 
-=> Generator:    
+=> Generator:
+    * Nos permite tener una funcion de tipo especial
+    * Es un tipo de iterador personalizado y define un algoritmo iterativo, mantiene el estado.
+
+=> Set-add:
+    * set no admite valores repetidos.
+
 
 
