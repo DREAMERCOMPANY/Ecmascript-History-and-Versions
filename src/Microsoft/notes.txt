@@ -1,0 +1,66 @@
+MICROSOFT LICENSE:
+
+=> Key Microsoft technolgies
+-Windows 11 pro | Windows 11 enterprise
+-A license must be assigned to each device on which the software is used.
+-We need a license for each device we are using.
+-All of the license are electronic
+-Microsoft office enterprise and Microsoft office standard both need licensen
+
+=> Windows server 2022
+- Microsoft server operating system
+- Available in 2 principal editions
+- Required before server aplications can be installed.
+- Hiper-v is included in the server
+- Bussineses are likely to be several server aplications.
+- is better if the server are separate into different servers
+- We use Hyper-v to create several server aplications
+- Hyper-V included for server virtualization
+- License with a Per Core and CAL model
+- minimun 16 license of the core per server
+- CAL => Client access license.
+- A Cal allows a client to access the server.
+
+=> Licensing Virtualized technology:
+- There are many benefits when using vitual technology
+
+
+=> Microsoft exchange server:
+- A server aplication to manage enterprise-wide email
+- Provide 3 ways for users to access their email, calendar , contact and tasks.
+- Can be installed in a physical or virtual operating system enviroment
+- Exchange online Available
+- Licensed with a 'Server and Cal' licensing model.
+
+=> Microsoft skype for bussines server 2019:
+
+-A server aplication to manage:
+    - Secure, auditable instant messaging
+    - Presence integration
+    - Audio video and web conferencing.
+    - Enterprise voice and technology
+- Can be installed in a physical or virtual operating system enviroment.
+-Licensed with a 'Server and CAL' licensing model.
+-Standard CAL, Enterprise CAL , Plus CAL
+
+=> Microsoft sharepoint Server SE:
+
+- A server aplication to help organizations to:
+    - Manage content
+    - Manage Bussineses process
+    - Simplify how people find and share information across intranet, extranet and internet sites.
+- Can be installed in a physical or virtual operating system enviroment.
+- Sharepoint online available
+-Licensed with a 'Server and CAL' licensing model.
+
+=> Microsoft SQL Server:
+
+- A server aplication which is a relational database.
+- Required as a data storage infrastructure product for some other several aplications.
+- At the heart of Microsoft BI solution.
+- Comes in several editions.
+- Can be installed in a physical or virtual operating system enviroment.
+- Depending on the edition, licensed with a 'Server and CAL' licensing model..
+
+
+

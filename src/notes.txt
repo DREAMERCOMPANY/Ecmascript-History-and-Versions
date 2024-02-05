@@ -73,8 +73,20 @@ Stage4: Finished (va a ser desplegada en la version normalmente en JUNIO)
     * Nos permite tener una funcion de tipo especial
     * Es un tipo de iterador personalizado y define un algoritmo iterativo, mantiene el estado.
 
-=> Set-add:
+=> Set-add: new set()
     * set no admite valores repetidos.
+
+=> Exponentiation operator y array includes:
+    * Actualizado en Jun-2016 ; ECMAScript:7
+    * Operador exponecial y includes que filtra un Array
+
+=> Object.entries && Object.values:
+    * Nueva version Jun-2017
+    * Entries de vuelve un arreglo e pares con [llave, valor]
+
+=> string padding y trailing commas:
+
+    
 
 
 
