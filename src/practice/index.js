@@ -623,7 +623,105 @@ Promise.allSettled([promiseOne,promiseTwo,promiseThree]).then(res => console.log
 //Promise.all solo imprime el valor de resolve si la promesa se resolvio
 Promise.all([promiseOne,promiseTwo,promiseThree]).then(res => console.log(res)); */
 
-//todo: GLOBAL THIS & MATCH ALL
+/* //!GLOBAL THIS & MATCH ALL
+
+//GLOBAL THIS
+console.log(window); //Navegador
+console.log(global); //Node
+console.log(self); //webworker
+console.log(globalThis);
+
+//MATCH ALL
+
+const regex = /\b(Apple)+\b/g
+const fruit = "Apple, Banana, Kiwi, Apple, Orange, etc. etc. etc."
+
+for(const match of fruit.matchAll(regex)){
+    console.log(match);
+} */
+
+/* //!NUMERIC SEPARATOR & REPLACE ALL
+
+//Los separadores numericos sirven para separar los numeros
+
+const value = 100_000_000;
+console.log(value);
+
+//Replace sirve para remplazar un valor del str por otro valor
+
+const string = 'Javascript es un maravilloso lenguaje de programacion'
+const modifyStr = string.replace('Javascript', 'C++')
+console.log(
+    {string,
+    modifyStr}
+    );
+
+//Replace All
+
+const str = 'Hola :), como estas? :clap, no olvides :) :clap'
+const newStr = str.replaceAll(':)', '🙃').replaceAll(':clap', '👏🏼');
+console.log({
+    str,
+    newStr
+}); */
+
+/* //! PROMISE ANY && METODOS PRIVADOS
+
+//Promise any captura la respuesta de la primer promesa que se cumpla
+
+const promiseOne = new Promise( (resolve, reject) => reject('Promise one rejected'))
+const promiseTwo = new Promise( (resolve, reject) => resolve('Promise two resolved'))
+const promiseThree = new Promise( (resolve, reject) => resolve('Promise three resolved'))
+
+Promise.any([promiseOne,promiseTwo,promiseThree]).then(res => console.log(res));
+
+//Metodos privados en clases
+
+class Student{
+    constructor({name, age, country, subjects = []}){
+        this.name = name;
+        this._age = age;
+        this.country = country,
+        this.subjects = subjects
+
+    }
+
+    read(){
+        console.log(`Student ${this.name} is able to read`);
+
+    }
+
+    #approveSubject() {
+        if (this.subjects.length > 0) {
+            console.log(`Student ${this.name} has approved ${this.subjects[0]} successfully`);
+        } else {
+            console.log(`Student ${this.name} has no subjects`);
+        }
+    }
+    
+
+    get #age(){
+        return this._age
+    }
+
+    set #age(newAge){
+        this._age = newAge
+    }
+}
+
+const Jhon = new Student({name:'Jhon', age:23, subjects: ['Maths', 'Social']})
+Jhon.read() */
+
+//! AT
+
+//Se utiliza para acceder a los elementos de un array
+const nums = [1,2,3,4,5,6]
+
+//Accediendo al ultimo elemento con At
+console.log(nums[nums.length - 1]);
+console.log(nums.at(-1));
+
+
 
 
 
